@@ -1,0 +1,21 @@
+{
+  "name": "jwt-encryptor-api",
+  "version": "1.0.0",
+  "description": "Simple api to provide encryption and decryption of data using JWT ",
+  "main": "index.js",
+  "repository": "https://github.com/darshan260802/jwt-encryptor-api.git",
+  "author": "Darshan Patel <darshanpatel2608ce@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
